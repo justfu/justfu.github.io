@@ -1,2 +1,1 @@
-# sixian67.github.com
-博客
+请移步 <http://liberize.me/life/about-this-blog-template.html>。
