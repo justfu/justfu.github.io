@@ -33,7 +33,7 @@ author :
 #
 production_url : http://sixian67.github.io
 # cdn_url : http://wx78585.u.qiniudn.com
-cdn_url : http://www.wx78585.com
+cdn_url : http://sixian67.github.io
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
