@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "如何用Fiddler对只允许微信浏览器的网页进行下载扒皮"
+title: "如何用Fiddler进行抓包"
 keywords: ["代理", "抓包", "微信"]
-description: "如何用Fiddler对只允许微信浏览器的网页进行下载扒皮"
+description: "如何用Fiddler对只允许微信浏览器的网页进行下载抓包"
 category: "技术分享"
 tags: ["微信", "代理"]
 ---
