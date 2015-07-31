@@ -24,6 +24,9 @@ tags: ["微信", "小技能"]
  
 -------
 ##### 步骤二 复制表情符号：
+* 按Ctrl + U 按钮查看源代码
+* 按Ctrl + F 查找你的昵称如（小农民） 主要目的是快速找到你发送的表情
+* 复制表情（注意有些表情符号有可能是空白的，但是不影响的，直接复制就行）
 
 ![图片2](https://img.alicdn.com/imgextra/i2/1819728314/TB2wiy1eXXXXXcjXXXXXXXXXXXX_!!1819728314.jpg)
 ![图片3](https://img.alicdn.com/imgextra/i1/1819728314/TB2jyaFeXXXXXbLXpXXXXXXXXXX_!!1819728314.jpg)
