@@ -27,12 +27,14 @@ tags: ["微信", "小技能"]
 * ![图片3](https://img.alicdn.com/imgextra/i1/1819728314/TB2jyaFeXXXXXbLXpXXXXXXXXXX_!!1819728314.jpg)
 
 -------
+
 ##### 步骤三 粘贴并预览：
 * ![图片4](https://img.alicdn.com/imgextra/i1/1819728314/TB2abSteXXXXXc7XpXXXXXXXXXX_!!1819728314.jpg)
 * ![图片5](https://img.alicdn.com/imgextra/i2/1819728314/TB2jTmUeXXXXXXkXpXXXXXXXXXX_!!1819728314.jpg)
 
 -------
- ##### 步骤四 添加更多的表情符号：
+
+##### 步骤四 添加更多的表情符号：
 ####### 如何得到更多的emjoy表情呢？
 * 安卓的：可下载一款叫  Go短信的app 里面有很多的表情符号 
 * 菜果的：可移步至<http://jingyan.baidu.com/article/c33e3f4884ba32ea14cbb54d.html>
