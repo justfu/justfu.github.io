@@ -1,0 +1,37 @@
+---
+layout: post
+title: "微信图文添加表情符号:question:"
+keywords: ["微信", "符号表情", "emjoy"]
+description: "如何在微信图文与自定义菜单上添加表情符号:question:"
+category: "技术分享"
+tags: ["微信", "小技能"]
+---
+{% include JB/setup %}
+
+#####　:collision:如何在微信图文与自定义菜单上添加表情符号:question:
+近日有同事说能不能在微信群发的图文中放图片，乍一听，蒙了！心想微信还有这功能，于是带着:question::question::question:的心，找她要案例！结果拿来一看，【表情符号】
+。这东东，记得还是前年的时候吧，那时候有玩过！记得开始还是放在自定义菜单上的！那时还没什么人用过，所以还有很多的开发者朋友来咨询！
+ -------
+ so,下面就简单说一下如何添加表情符号的步骤:(它的专业名词叫emjoy表情，下文将以emjoy表情 说明)
+ 
+###### 步骤一 找到正确的表情符号：
+* 首先大家得知道什么是 emjoy表情？
+ 在微信自带的表情中有一些默认的表情，如果你点一下，在输入框中，可以显示表情的，那么这就是表情符号了！如果在输入框中不显示表情，发送后才显示表情的，
+ 那么这种就不是emjoy表情，:musical_note: 如下图
+ 
+ ![图片1](https://img.alicdn.com/imgextra/i2/1819728314/TB2jeKHeXXXXXa2XpXXXXXXXXXX_!!1819728314.jpg)
+ 
+###### 步骤二 复制表情符号：
+* 将表情发送给自己的微信公众平台
+  ![图片2](https://img.alicdn.com/imgextra/i2/1819728314/TB2wiy1eXXXXXcjXXXXXXXXXXXX_!!1819728314.jpg)
+  ![图片3](https://img.alicdn.com/imgextra/i1/1819728314/TB2jyaFeXXXXXbLXpXXXXXXXXXX_!!1819728314.jpg)
+
+###### 步骤三 粘贴并预览：
+* 将图文信息发送到个人账号预览测试效果
+  ![图片4](https://img.alicdn.com/imgextra/i1/1819728314/TB2abSteXXXXXc7XpXXXXXXXXXX_!!1819728314.jpg)
+  ![图片5](https://img.alicdn.com/imgextra/i2/1819728314/TB2jTmUeXXXXXXkXpXXXXXXXXXX_!!1819728314.jpg)
+
+###### 步骤四 添加更多的表情符号：
+  * 如何得到更多的emjoy表情呢？
+  安卓的：可下载一款叫  Go短信的app 里面有很多的表情符号 
+  菜果的：可移步至<http://jingyan.baidu.com/article/c33e3f4884ba32ea14cbb54d.html>
