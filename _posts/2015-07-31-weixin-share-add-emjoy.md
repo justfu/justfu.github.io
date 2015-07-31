@@ -20,20 +20,20 @@ tags: ["微信", "小技能"]
 ###### 首先大家得知道什么是 emjoy表情？
 * 在微信自带的表情中有一些默认的表情，如果你点一下，在输入框中，可以显示表情的，那么这就是表情符号了！如果在输入框中不显示表情，发送后才显示表情的，那么这种就不是emjoy表情，:musical_note: 如下图
 
-* ![图片1](https://img.alicdn.com/imgextra/i2/1819728314/TB2jeKHeXXXXXa2XpXXXXXXXXXX_!!1819728314.jpg)
+![图片1](https://img.alicdn.com/imgextra/i2/1819728314/TB2jeKHeXXXXXa2XpXXXXXXXXXX_!!1819728314.jpg)
  
 -------
 ##### 步骤二 复制表情符号：
 
-* ![图片2](https://img.alicdn.com/imgextra/i2/1819728314/TB2wiy1eXXXXXcjXXXXXXXXXXXX_!!1819728314.jpg)
-* ![图片3](https://img.alicdn.com/imgextra/i1/1819728314/TB2jyaFeXXXXXbLXpXXXXXXXXXX_!!1819728314.jpg)
+![图片2](https://img.alicdn.com/imgextra/i2/1819728314/TB2wiy1eXXXXXcjXXXXXXXXXXXX_!!1819728314.jpg)
+![图片3](https://img.alicdn.com/imgextra/i1/1819728314/TB2jyaFeXXXXXbLXpXXXXXXXXXX_!!1819728314.jpg)
 
 -------
 
 ##### 步骤三 粘贴并预览：
 
-* ![图片4](https://img.alicdn.com/imgextra/i1/1819728314/TB2abSteXXXXXc7XpXXXXXXXXXX_!!1819728314.jpg)
-* ![图片5](https://img.alicdn.com/imgextra/i2/1819728314/TB2jTmUeXXXXXXkXpXXXXXXXXXX_!!1819728314.jpg)
+![图片4](https://img.alicdn.com/imgextra/i1/1819728314/TB2abSteXXXXXc7XpXXXXXXXXXX_!!1819728314.jpg)
+![图片5](https://img.alicdn.com/imgextra/i2/1819728314/TB2jTmUeXXXXXXkXpXXXXXXXXXX_!!1819728314.jpg)
 
 -------
 
