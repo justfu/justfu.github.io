@@ -1,1 +1,2 @@
-Sitemap: http://www.wx78585.com/sitemap.txt
+User-agent: *
+Disallow:
