@@ -40,4 +40,4 @@ version  v1.1
 * 红包金额每次不能少于100分， 裂变红包平均每个不能少于100分
 * APPSECRET 与 KEY 注意不能放错,否则也会出现签名错误的情况
 
-github地址：https://github.com/sixian67
+github地址：https://github.com/sixian67/weixin
