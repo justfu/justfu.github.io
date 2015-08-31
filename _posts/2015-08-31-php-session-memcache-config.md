@@ -61,6 +61,7 @@ memcached -d -m 100 -u root -l 192.168.36.200 -p 11211 -c 256 -P /tmp/memcached.
 ###### 在程序中使用 memcache 来作 session 存储
 用例子测试一下：
 复制代码 代码如下:
+
 ```
 <?php  
 session_start();  
