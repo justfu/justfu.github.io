@@ -6,3 +6,10 @@
   <li><a href="http://jekyllrb.com/" target="_blank">Jekyll 静态博客生成器</a></li>
   <li><a href="http://www.helloweba.com/" target="_blank">Helloweba_致力于WEB前端技术</a></li>
 </ul>
+
+<a href="#"><i class="icon-fixed-width icon-link"></i> 最新评论</a>
+<ul>
+<!-- 多说最新评论 start -->
+	<div class="ds-recent-comments" data-num-items="5" data-show-avatars="1" data-show-time="1" data-show-title="1" data-show-admin="1" data-excerpt-length="70"></div>
+<!-- 多说最新评论 end -->
+</ul>
