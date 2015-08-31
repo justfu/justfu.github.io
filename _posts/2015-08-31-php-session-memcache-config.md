@@ -62,31 +62,31 @@ memcached -d -m 100 -u root -l 192.168.36.200 -p 11211 -c 256 -P /tmp/memcached.
 用例子测试一下：
 复制代码 代码如下:
 ```
-    <?php  
-    session_start();  
-    if (!isset($_SESSION['TEST'])) {  
-        $_SESSION['TEST'] = time();  
-    }  
+<?php  
+session_start();  
+if (!isset($_SESSION['TEST'])) {  
+    $_SESSION['TEST'] = time();  
+}  
 
-    $_SESSION['TEST3'] = time();  
+$_SESSION['TEST3'] = time();  
 
-    print $_SESSION['TEST'];  
-    print "<br><br>";  
-    print $_SESSION['TEST3'];  
-    print "<br><br>";  
-    print session_id();  
-    ?>  
+print $_SESSION['TEST'];  
+print "<br><br>";  
+print $_SESSION['TEST3'];  
+print "<br><br>";  
+print session_id();  
+?>  
 ```
 
 ###### 用 sessionid 去 memcached 里查询一下：
 复制代码 代码如下:
-```php
-    <?php  
-      $memcache = memcache_connect('localhost', 11211);  
-      var_dump($memcache->get('19216821213c65cedec65b0883238c278eeb573e077'));  
-      $memcache->set('aaaa', 'hello everyone');  
-      var_dump($memcache->get('aaaa'));  
-    ?> 
+``` 
+<?php  
+  $memcache = memcache_connect('localhost', 11211);  
+  var_dump($memcache->get('19216821213c65cedec65b0883238c278eeb573e077'));  
+  $memcache->set('aaaa', 'hello everyone');  
+  var_dump($memcache->get('aaaa'));  
+?> 
 ```
 
 会看到
@@ -130,27 +130,27 @@ memcached -d -m 10 -u root -l 127.0.0.1 -p 11211 -c 256 -P /tmp/memcached.pid
 ###### 测试 创建一个 session
 复制代码 代码如下:
 ```
-    <?php
-        //set_session.php
-        session_start();
-        if (!isset($_SESSION['admin'])) {
-        $_SESSION['TEST'] = 'wan';
-        }
-        print $_SESSION['admin'];
-        print "\n";
-        print session_id();
-    ?>
+<?php
+    //set_session.php
+    session_start();
+    if (!isset($_SESSION['admin'])) {
+    $_SESSION['TEST'] = 'wan';
+    }
+    print $_SESSION['admin'];
+    print "\n";
+    print session_id();
+?>
 ```
 
 ###### 用 sessionid 去 memcached 里查询一下
 复制代码 代码如下:
 ```
-    <?php
-        //get_session.php
-        $mem = new Memcache;
-        $mem->connect("127.0.0.1", 11211);
-        var_dump($mem->get('0935216dbc0d721d629f89efb89affa 6'));
-    ?>
+<?php
+    //get_session.php
+    $mem = new Memcache;
+    $mem->connect("127.0.0.1", 11211);
+    var_dump($mem->get('0935216dbc0d721d629f89efb89affa 6'));
+?>
 ```
 
 
