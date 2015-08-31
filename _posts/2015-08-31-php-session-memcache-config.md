@@ -38,7 +38,7 @@ ini_set("session.save_handler", "memcached"); // 是memcached不是memcache
 ini_set("session.save_path", "127.0.0.1:11211"); // 不要tcp:
 ```
 
-########  启动 memcached：
+######## 启动 memcached：
 memcached -d -l 127.0.0.1 -p 11212 -m 128
 
 
