@@ -153,37 +153,4 @@ memcached -d -m 10 -u root -l 127.0.0.1 -p 11211 -c 256 -P /tmp/memcached.pid
     ?>
 ```
 
-复制代码 代码如下:
-```
-[root@localhost html]# /usr/local/webserver/php/bin/php -f get_session.php
-```
-------
-* 用 memcache 来存储 session 在读写速度上应该会比文件快很多，而且在多个服务器需要共用 session 时会比较方便，将这些服务器都配置成使用同一组 memcached 服务器就可以，减少了额外的工作量。缺点是 session 数据都保存在内存中，不能持久化存储，如果想持久化存储，可以考虑使用Memcachedb来存储，或用Tokyo Tyrant+Tokyo Cabinet来进行存储。
-------
-* 怎样判断session失效了呢？在php.ini中有个Session.cookie_lifetime的选项，这个代表SessionID在客户端Cookie储存的时间，默认值是“0”，代表浏览器一关闭，SessionID就作废，这样不管保存在Memcached中的Session是否还有效(保存在Memcached中的session会利用Memcached的内部机制进行处理，即使session数据没有失效，而由于客户端的SessionID已经失效，所以这个key基本上不会有机会使用了，利用Memcached的LRU原则，如果Memcached的内存不够用了，新的数据就会取代过期以及最老的未被使用的数据)，因为SessionID已经失效了，所以在客户端会重新生成一个新的SessionID。
-------
-* 保存在Memcached中的数据最长不会超过30天,这个时间是以操作Memcached的时间为基准的，也就是说，只要key还是原来的key,如果你重新对此key进行了相关的操作(如set操作)，且重新设置了有效期，则此时此key对应的数据的有效期会重新计算的,php手册中有说明
-Expiration time of the item. If it's equal to zero, the item will never expire. You can also use Unix timestamp or a number of seconds starting from current time, but in the latter case the number of seconds may not exceed 2592000 (30 days). 
-Memcached主要的cache机制是LRU（最近最少用）算法+超时失效。当您存数据到memcached中，可以指定该数据在缓存中可以呆多久。如果memcached的内存不够用了，过期的slabs会优先被替换，接着就轮到最老的未被使用的slabs。
------
 
-* 为了使web应用能使用saas模式的大规模访问,必须实现应用的集群部署.要实现集群部署主要需要实现session共享机制,使得多台应用服务器之间会话统一, tomcat等多数服务都采用了session复制技术实现session的共享.
-session复制技术的问题:
-(1)技术复杂,必须在同一种中间件之间完成(如:tomcat-tomcat之间).
-(2)在节点持续增多的情况下,session复制带来的性能损失会快速增加.特别是当session中保存了较大的对象,而且对象变化较快时,性能下降更加显著.这种特性使得web应用的水平扩展受到了限制.
------
-
-* session共享的另一种思路就是把session集中起来管理,首先想到的是采用数据库来集中存储session,但数据库是文件存储相对内存慢了一个数量级,同时这势必加大数据库系统的负担.所以需要一种既速度快又能远程集中存储的服务,所以就想到了memcached.
-memcached能缓存什么？
-通过在内存里维护一个统一的巨大的hash表，Memcached能够用来存储各种格式的数据，包括图像、视频、文件以及数据库检索的结果等。
-memcached快么？
-非常快。memcached使用了libevent（如果可以的话，在linux下使用epoll）来均衡任何数量的打开链接，使用非阻塞的网络I/O，对内部对象实现引用计数(因此，针对多样的客户端，对象可以处在多样的状态)， 使用自己的页块分配器和哈希表， 因此虚拟内存不会产生碎片并且虚拟内存分配的时间复杂度可以保证为O(1).。
-使用过程注意几个问题和改进思路：
------
-1、memcache的内存应该足够大，这样不会出现用户session从Cache中被清除的问题(可以关闭memcached的对象退出机制)。 
-2、如果session的读取比写入要多很多，可以在memcache前再加一个Oscache等本地缓存，减少对memcache的读操作，从而减小网络开销，提高性能。 
-3、如果用户非常多，可以使用memcached组，通过set方法中带hashCode，插入到某个memcached服务器 
-对于session的清除有几种方案:
-(1)可以在凌晨人最少的时候，对memcached做一次清空。(简单)
-(2)保存在缓存中的对象设置一个失效时间,通过过滤器获取sessionId的值,定期刷新memcached中的对象.长时间没有被刷新的对象自动被清除.(相对复杂,消耗资源)
------
