@@ -8,7 +8,7 @@ tags: ["opensearch排序"]
 ---
 {% include JB/setup %}
 
-#### 最新有一个(opensearch)的需求，如下：
+#### 最近有一个(opensearch)的需求，如下：
 *  `end_time`为时间戳，如果当前时间大于`end_time`则表示 `过期`
 * 没过期，优先按`sort`排序
 * 过期了，则按`end_time` 倒序排序
