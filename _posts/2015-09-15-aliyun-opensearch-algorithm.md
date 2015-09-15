@@ -18,6 +18,8 @@ tags: ["opensearch排序"]
 
 咨询了下阿里的工程师们
 给出了以下的回复：
+
+
 ```
 云搜索_客户接入(zhengmay8277) (2015-09-15 12:07:38):
 这种可以在排序表达式中使 精排 if(now()>endtime,end_time,sort) 注意下sort和end_time之间的值域范围调整下   另外粗排也需要考虑下
@@ -29,6 +31,7 @@ tags: ["opensearch排序"]
 这种可以在排序表达式中使 精排 if(now()>endtime,end_time,sort) 注意下sort和end_time之间的值域范围调整下   另外粗排也需要考虑下
 那你可以试下这样 粗排timeliness（end_time），精排 if(now()>endtime,timeliness(end_time),sort+1)
 ```
+
 
 然后打开管理中心按他们提供资料的配置好，果然可以了！顺便看了下里面的一些排序函数
 真心感觉到openSearch的强大：
