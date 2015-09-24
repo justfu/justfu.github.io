@@ -44,7 +44,7 @@ memcached -d -l 127.0.0.1 -p 11212 -m 128
 
 或 启动Memcache的服务器端：
 
-```
+```c
 memcached -d -m 100 -u root -l 192.168.36.200 -p 11211 -c 256 -P /tmp/memcached.pid  
 # /usr/local/bin/memcached -d -m 10 -u root -l 192.168.0.200 -p 12000 -c 256 -P /tmp/memcached.pid
 ```
@@ -62,7 +62,7 @@ memcached -d -m 100 -u root -l 192.168.36.200 -p 11211 -c 256 -P /tmp/memcached.
 用例子测试一下：
 复制代码 代码如下:
 
-```
+```php
 <?php  
     session_start();  
     if (!isset($_SESSION['TEST'])) {
