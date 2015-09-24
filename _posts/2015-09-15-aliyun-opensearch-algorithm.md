@@ -38,12 +38,12 @@ tags: ["opensearch排序"]
 
 -----
 
-* 粗排函数支持
+粗排函数支持
 ![图片加载中](https://img.alicdn.com/imgextra/i2/1819728314/TB2EMg7fXXXXXbkXpXXXXXXXXXX_!!1819728314.png)
 
 -----
 
-* 强大的精排函数
+强大的精排函数
 ![图片加载中](https://img.alicdn.com/imgextra/i3/1819728314/TB2vvJpfpXXXXa7XXXXXXXXXXXX_!!1819728314.jpg)
 
 ----
