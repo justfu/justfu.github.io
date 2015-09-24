@@ -33,7 +33,8 @@ author :
 #
 production_url : http://www.wx78585.com
 # cdn_url : http://wx78585.u.qiniudn.com
-cdn_url : http://wx78585-github-blog.b0.upaiyun.com
+#cdn_url : http://wx78585-github-blog.b0.upaiyun.com
+cdn_url : http://www.wx78585.com
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
