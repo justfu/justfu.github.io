@@ -1,4 +1,6 @@
-pre{background-color: #312C2C;}
+pre{background-color: #312C2C;color: white;}
+.article img{padding:0px;max-width:100%;}
+
 .hll { background-color: #49483e }
 .c { color: #75715e } /* Comment */
 .err { color: #960050; background-color: #1e0010 } /* Error */
