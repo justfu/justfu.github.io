@@ -10,7 +10,7 @@ tags: ["ubuntu", "java"]
 
 
 原文来自：
-![https://linux.cn/article-3792-1.html](https://linux.cn/article-3792-1.html)
+[https://linux.cn/article-3792-1.html](https://linux.cn/article-3792-1.html)
 
 ####怎样在Ubuntu 14.04中安装Java
 
@@ -36,16 +36,17 @@ Try: sudo apt-get install
 
 ####在Ubuntu和Linux Mint上安装JRE
 打开终端，使用下面的命令安装JRE：
+
 ```c
 sudo apt-get install default-jre
 ```
 ####在Ubuntu和Linux Mint上安装Oracle JDK
 使用下面的命令安装，只需一些时间，它就会下载许多的文件，所及你要确保你的网络环境良好：
+
 ```c
 sudo add-apt-repository ppa:webupd8team/java
 sudo apt-get update
 sudo apt-get install oracle-java8-installer
 sudo apt-get install oracle-java8-set-default
-
 ```
 
