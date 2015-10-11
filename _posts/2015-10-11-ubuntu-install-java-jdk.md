@@ -40,6 +40,7 @@ Try: sudo apt-get install
 ```c
 sudo apt-get install default-jre
 ```
+
 ####在Ubuntu和Linux Mint上安装Oracle JDK
 使用下面的命令安装，只需一些时间，它就会下载许多的文件，所及你要确保你的网络环境良好：
 
