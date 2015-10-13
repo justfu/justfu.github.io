@@ -28,6 +28,6 @@ tags: ["aliyun", "oss"]
 4. 将配置文件配置到`conf.inc.php`中
 5. 用`demo.php` 进行测试吧
 
-源码路径下载：[https://github.com/sixian67/php/aliyun/oss/upload/archive/master.zip](https://github.com/sixian67/php_aliyun_oss_upload/archive/master.zip)
+源码路径：[https://github.com/sixian67/php_aliyun_oss_upload](https://github.com/sixian67/php_aliyun_oss_upload)
 
 
