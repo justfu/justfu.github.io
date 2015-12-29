@@ -8,8 +8,12 @@ tags: ["html", "js"]
 ---
 
 {% include JB/setup %}
+
 #### 背景
 以前听老leader说不要将js代码写在html页码里面，要统一规范写在引入的js文件里面，之前也没太注意，也没去查原因，直到前两天在一个项目中出现的bug才知道此问题的重要性！
+#### 举粟
+![](https://img.alicdn.com/imgextra/i4/1819728314/TB2ptY7iVXXXXatXXXXXXXXXXXX_!!1819728314.jpg)
+
 
 #### 出现的异常现象
 当我们将`html`页面进行代码压缩后时,有一段写了正则的js代码不生效了，且后面的js也受到了影响，导致出现异常现象
