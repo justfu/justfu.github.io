@@ -8,9 +8,6 @@ tags: ["分享"]
 ---
 {% include JB/setup %}
 
-```
-
-
 一、安装smb
 
 执行命令行：
