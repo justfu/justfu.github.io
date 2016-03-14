@@ -14,14 +14,15 @@ tags: ["分享", "走过的坑"]
 ### 出现的问题与解决方法
 在这过程中把所遇到难点先总结下
 
-1. 使用root账户登陆时，密码必须
+* 使用root账户登陆时，密码必须
 
-2. 使用ip在管理数据库地址连接时要设置权限
+* 使用ip在管理数据库地址连接时要设置权限
 
 ```
 GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY '123456' WITH GRANT OPTION;
 ```
-3. 出现的报错问题**MySQL错误：Can't connect to(10060)**
+
+* 出现的报错问题**MySQL错误：Can't connect to(10060)**
 
 ```
 变更 my.conf里面的mysqld 连接端口 3306换成其它的
