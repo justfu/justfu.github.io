@@ -21,7 +21,6 @@ tags: ["分享", "走过的坑"]
 ```
 GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY '123456' WITH GRANT OPTION;
 ```
-
 3. 出现的报错问题**MySQL错误：Can't connect to(10060)**
 
 ```
