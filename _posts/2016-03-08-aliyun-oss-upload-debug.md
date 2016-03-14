@@ -8,8 +8,6 @@ tags: ["bug", "upload"]
 ---
 {% include JB/setup %}
 
-```
-
 * 最近在一个项目中发现如下问题
 `使用阿里OSS的图片网址微信分享时不会显示`
 
