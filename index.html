@@ -25,7 +25,7 @@ description: "小农民科技博客,小农民科技-邓思贤博客,邓思贤,�
 
     <footer>
       <p>
-        发表日期：<a href="{{ site.JB.archive_path }}#{{ post.date | date: '%B-%Y' }}" title="查看此月所有文章">{{ post.date | date: "%Y %m %d" }}</a>，
+        发表日期：<a href="{{ site.JB.archive_path }}#{{ post.date | date: '%B-%Y' }}" title="查看此月所有文章">{{ post.date | date: "%Y-%m-%d %H-%i" }}</a>，
         作者：<a href="mailto:{{ site.author.email }}" title="向作者发送邮件">{{ site.author.name }}</a>，
         类别：<a href="{{ site.JB.categories_path }}#{{ post.category }}-ref" title="查看此类别下的所有文章">{{ post.category }}</a>{% if site.JB.comments.provider == 'duoshuo' %}，
         评论：<a href="{{ post.url }}#ds-thread" title="查看此文章的评论"><span class="ds-thread-count" data-thread-key="{{ post.title }}" data-count-type="comments"></span></a>{% endif %}
