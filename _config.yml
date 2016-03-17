@@ -31,10 +31,10 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://www.wx78585.com
+production_url : http://http://blog.szxnm.com
 # cdn_url : http://wx78585.u.qiniudn.com
 #cdn_url : http://wx78585-github-blog.b0.upaiyun.com
-#cdn_url : http://www.wx78585.com
+#cdn_url : http://http://blog.szxnm.com
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -73,7 +73,7 @@ JB :
   #   http://s3.amazonaws.com/yoursite/themes/watermelon
   #   /assets
   #
-  ASSET_PATH : http://www.wx78585.com/assets/themes/twitter/
+  ASSET_PATH : http://http://blog.szxnm.com/assets/themes/twitter/
   IMAGE_PATH : false
 
   # These paths are to the main pages Jekyll-Bootstrap ships with.
