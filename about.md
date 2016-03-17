@@ -9,7 +9,7 @@ comments: false
 
 ## 个人简介
 ### 小农民科技公众平台账号
-![公众账号](http://www.wx78585.com/qrcode_for_gh_a7742587ff1f_258.jpg)
+![公众账号](http://blog.szxnm.com/qrcode_for_gh_a7742587ff1f_258.jpg)
 
 混迹于互联网，常用网名`小农民`。
 
