@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "“我好累” 但不要对自己说“我不行”"
-keywords: ["“我好累” 但不要对自己说“我不行”"]
-description: "“我好累” 但不要对自己说“我不行”"
+title: "不要对自己说“我不行”"
+keywords: ["不要对自己说“我不行”"]
+description: "不要对自己说“我不行”"
 category: "生活"
 tags: ["生活", "情感"]
 ---
