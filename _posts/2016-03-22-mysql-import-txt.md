@@ -9,14 +9,15 @@ tags: ["mysql", "命令"]
 {% include JB/setup %}
 
 
-导入 demo
+### 导入 demo
 
 ```php
 load data local infile 'd:/mysql_txt/wbh_zy.txt'
 into table qr_number(qr_pk_number, qr_number); 
 ```
 
-mysql 随机得到数值
+### mysql 随机得到数值
+
 ```php
 update bs_vote set create_time=
 create_time-((rand()*1702993)+1)
