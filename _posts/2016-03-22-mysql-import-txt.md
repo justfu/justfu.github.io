@@ -11,14 +11,14 @@ tags: ["mysql", "命令"]
 
 ### 导入 demo
 
-```php
+```mysql
 load data local infile 'd:/mysql_txt/wbh_zy.txt'
 into table qr_number(qr_pk_number, qr_number); 
 ```
 
 ### mysql 随机得到数值
 
-```php
+```mysql
 update bs_vote set create_time=
 create_time-((rand()*1702993)+1)
 where id =1
