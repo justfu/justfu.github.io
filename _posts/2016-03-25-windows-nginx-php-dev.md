@@ -4,7 +4,7 @@ title: "Windows运行nginx的配置环境"
 keywords: ["Windows运行nginx的配置环境"]
 description: "Windows运行nginx的配置环境"
 category: "Windows"
-tags: ["Windows", "nginx"]
+tags: ["Windows", "环境"]
 ---
 {% include JB/setup %}
 
