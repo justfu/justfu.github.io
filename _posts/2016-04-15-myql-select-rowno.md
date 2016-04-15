@@ -17,6 +17,7 @@ tags: ["mysql"]
 一般我们可以通过用临时变量、count、临时表等根据应用不同生成mysql行号
 
 测试表数据如下：
+
 ```
 mysql> SELECT * FROM test_score;  
 +----+-------+--------+  
@@ -34,6 +35,7 @@ mysql> SELECT * FROM test_score;
 如下例子的排名问题
  
 我们想按照积分对他们排名，我们可以使用临时变量来得到行记录
+
 ```
 ##如果是有limit n, m 的话，这里rowNo应该是 n * m  
 mysql> set @rowNo = 0;  
@@ -52,6 +54,7 @@ mysql> set @rowNo = 0;
 ```
 
 如果我们想只找钱七的排名的话怎么办？
+
 ```
 mysql> SELECT COUNT(id) + 1 AS ranking FROM test_score WHERE score > (SELECT score FROM test_score WHERE `name` = '钱七');   
 +---------+  
