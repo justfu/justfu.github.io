@@ -23,7 +23,7 @@ tags: ["签名报错", "微信"]
 
 3. 以为是php与js的urledcodo参与会影响于是，分别打印出当前的网站
 前端：
-```
+<pre>
 	$.get( '/wxsign/getwxconf.html', {url:myUrl}, function(remoteData){
 		// console.log(remoteData);
 		//向服务器发送请求，获得signature
@@ -44,24 +44,24 @@ tags: ["签名报错", "微信"]
 		   _czc.push(["_trackEvent","分享签名出错",'error', res, myUrl]);
 		});
 	}, 'json')
-```
+</pre>
 
 后端：
-```
+<pre>
 	$real_url = 'http://hero.test.com/zhuangbiauto/edit/id/7?from=singlemessage&isappinstalled=0'; //写死当前网址
 	$js_from_url = urldecode($_GET['url']);// 用js get 方式传过来的
 	if(strlen($real_url) == strlen($js_from_url) )
 		echo '我是相等的'
 	else
 		echo '我们不一样哦';
-```
+</pre>
 
 奇迹出现了，原来他们真的是不相等的，但是直接输出是一样的，仅仅是长度不一样！
 
 
 #### 解决方案
 将前端url传输改成POST方式，完美运行了
-```
+<pre>
     $.post( '/wxsign/getwxconf.html', {url:myUrl}, function(remoteData){
           // console.log(remoteData);
           //向服务器发送请求，获得signature
@@ -84,7 +84,7 @@ tags: ["签名报错", "微信"]
           });
      
     }, 'json')
-```
+</pre>
 
 #### 总结
 1. js用get方式传输数据时会进行一定的处理，与服务端的会有一定的差异
