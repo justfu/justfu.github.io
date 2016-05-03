@@ -22,6 +22,7 @@ tags: ["签名报错", "微信"]
 2. 对比之下，仅仅是参数上多了一段这个参数而且是微信自带的`?from=singlemessage&isappinstalled=0`
 
 3. 以为是php与js的urledcodo参与会影响于是，分别打印出当前的网站
+
 前端：
 <pre>
 	$.get( '/wxsign/getwxconf.html', {url:myUrl}, function(remoteData){
