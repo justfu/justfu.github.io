@@ -23,7 +23,7 @@ tags: ["签名报错", "微信"]
 
 3. 以为是php与js的urledcodo参与会影响于是，分别打印出当前的网站
 前端：
-```js
+```
 	$.get( '/wxsign/getwxconf.html', {url:myUrl}, function(remoteData){
 		// console.log(remoteData);
 		//向服务器发送请求，获得signature
@@ -45,8 +45,9 @@ tags: ["签名报错", "微信"]
 		});
 	}, 'json')
 ```
+
 后端：
-```php
+```
 	$real_url = 'http://hero.test.com/zhuangbiauto/edit/id/7?from=singlemessage&isappinstalled=0'; //写死当前网址
 	$js_from_url = urldecode($_GET['url']);// 用js get 方式传过来的
 	if(strlen($real_url) == strlen($js_from_url) )
@@ -60,7 +61,7 @@ tags: ["签名报错", "微信"]
 
 #### 解决方案
 将前端url传输改成POST方式，完美运行了
-```js
+```
     $.post( '/wxsign/getwxconf.html', {url:myUrl}, function(remoteData){
           // console.log(remoteData);
           //向服务器发送请求，获得signature
