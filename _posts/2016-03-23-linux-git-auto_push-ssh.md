@@ -25,3 +25,26 @@ find /data/www/product/Application/ -name common~runtime.php -ok rm -rf {} \;
 #kill -USR2 `cat /data/logs/php-fpm.pid`
 #service php-fpm reload
 ```
+
+
+
+demo2
+
+```
+#!/bin/sh
+
+WEB_PATH='/data/www/weixin/aliyun/881389/project/shidaidican'
+WEB_USER='www'
+WEB_USERGROUP='www' 
+          
+echo "Start deployment"
+cd $WEB_PATH
+echo "pulling source code..."
+git reset --hard origin/master 
+git clean -f
+git pull
+git checkout master 
+echo "changing permissions..."
+chown -R $WEB_USER:$WEB_USERGROUP $WEB_PATH
+echo "Finished."
+```
