@@ -10,18 +10,18 @@ tags: ["反向代理", "nginx"]
 
 利用NGINX 反向代理到内网
 
-soj.test.XXX.net  解析到腾讯云上，
+soj.test.kangzishangcheng.net  解析到腾讯云上，
 
 然后指定内网domain  ：  test.soj.com
 
 ```
 upstream company_proxy {
-    server 218.77.56.58:30002;
+    server 固定外网IP:30002;
 }   
 
 server {
     listen 80;
-    server_name  soj.test.XXX.net;
+    server_name  soj.test.kangzishangcheng.net;
 
     root   html;
     index  index.html index.htm index.php;
@@ -32,7 +32,7 @@ server {
 
         #Proxy Settings
         proxy_redirect     off;
-        proxy_set_header   Host            test.XXX.com;
+        proxy_set_header   Host            test.soj.com;
         proxy_set_header   X-Real-IP        $remote_addr;
         proxy_set_header   X-Forwarded-For  $proxy_add_x_forwarded_for;
         proxy_next_upstream error timeout invalid_header http_500 http_502 http_503 http_504;
