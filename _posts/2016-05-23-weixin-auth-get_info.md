@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "网页授权获取微信用户信息错误40029：不合法的oauth_code"
+title: "网页授权获取微信用户信息错误40029"
 keywords: ["网页授权获取微信用户信息错误40029"]
 description: "微信网页授权"
 category: "40029"
@@ -32,7 +32,7 @@ tags: ["40029", "微信网页授权"]
 ```
 if($rs['errcode'] == 40029) {
     // 如果授权失败，则再进行一次授权
-    $return_url = urlencode('http://' . C('main_domain') . $_SERVER["REQUEST_URI"]);
+    $return_url = urlencode('http://' . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"]);
     $url = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid=' . C('AppID') . '&redirect_uri=' . $return_url . '&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect'; 
     header("location:$url");
     die('重新授权');
