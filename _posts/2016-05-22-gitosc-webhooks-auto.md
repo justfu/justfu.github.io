@@ -10,8 +10,8 @@ tags: ["gitosc", "webhooks"]
 
 利用webhooks自动发布代码
 
-#### 什么是WebHook？
-WebHook 使用简介
+#### 什么是webhooks？
+webhooks 使用简介
 [请移步gitosc查看](http://git.oschina.net/oschina/git-osc/wikis/WebHook-%E4%BD%BF%E7%94%A8%E7%AE%80%E4%BB%8B)
 
 
@@ -47,7 +47,7 @@ if(!isset($_REQUEST['hook'])) {
 $hook = $_REQUEST['hook'];
 $hook_obj = json_decode($hook);
 
-if($hook_obj !== 'webhooks_password') {
+if($hook_obj->password != 'webhooks_password') {
         error_log("[push] is ok\n", 3, '/var/log/webhook/git_update.log');
         die('password is error!');
 }
