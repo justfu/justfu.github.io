@@ -47,13 +47,8 @@ if(!isset($_REQUEST['hook'])) {
 $hook = $_REQUEST['hook'];
 $hook_obj = json_decode($hook);
 
-<<<<<<< HEAD
-if($hook_obj->password != 'webhooks_password') {
-        error_log("[push] is ok\n", 3, '/var/log/webhook/git_update.log');
-=======
 if($hook_obj->password !== 'webhooks_password') {
         error_log("[password] is error\n", 3, '/var/log/webhook/git_update.log');
->>>>>>> 64a6bd77279e6fb32f36ccb90e81529857dbfac7
         die('password is error!');
 }
 
