@@ -33,6 +33,5 @@ update 表 set 字段=concat(追加字符, 字段)
 ```
 
 ### 效果如下 在该字段前 追加了 `vip`
-![效果图][1]
+![效果图](https://img.alicdn.com/imgextra/i4/1819728314/TB2vkNEsXXXXXXnXpXXXXXXXXXX_!!1819728314.jpg)
 
-[1](https://img.alicdn.com/imgextra/i4/1819728314/TB2vkNEsXXXXXXnXpXXXXXXXXXX_!!1819728314.jpg)
