@@ -8,7 +8,7 @@ tags: ["mysql", "小技能"]
 ---
 {% include JB/setup %}
 
-> 完整sql
+### 完整sql
 
 ```
 update 
