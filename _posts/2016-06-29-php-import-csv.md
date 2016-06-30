@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "mysql 批量在某个字段前追加字符"
-keywords: ["mysql 批量在某个字段前追加字符#号"]
-description: "mysql 批量在某个字段前追加字符"
-category: "mysql"
-tags: ["mysql", "小技能"]
+title: "php 导出CSV函数 支持繁体"
+keywords: ["php 导出CSV函数 支持繁体#号"]
+description: "php 导出CSV函数 支持繁体"
+category: "CSV"
+tags: ["CSV", "小技能"]
 ---
 {% include JB/setup %}
 
