@@ -17,8 +17,10 @@ tags: ["wxbot", "python"]
 #### 参考资料二：
 [普通个人号 微信机器人/外挂](https://github.com/fritx/wxbot/)
 
+### 参考资料三
+[网页版微信API，包含终端版微信及微信机器人](https://github.com/Urinx/WeixinBot)
 
-#### 参考资料三：
+#### 自动回复接口：
 [图灵机器人](http://www.tuling123.com/)
 
 还支持自定义关键字类似公众平台 
