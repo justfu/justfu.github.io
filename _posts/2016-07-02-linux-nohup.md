@@ -1,12 +1,14 @@
 ---
 layout: post
-title: "Linux 任务控制(bg job fg nohup &)"
-keywords: ["Linux 任务控制(bg job fg nohup &)"]
-description: "Linux 任务控制(bg job fg nohup &)"
+title: "Linux 任务控制"
+keywords: ["Linux 任务控制"]
+description: "Linux 任务控制"
 category: "任务控制"
 tags: ["任务控制", "nohup"]
 ---
 {% include JB/setup %}
+
+## (bg job fg nohup &)
 
 > 一、 简介 
     Linux/Unix 区别于微软平台最大的优点就是真正的多用户，多任务。因此在任务管理上也有别具特色的管理思想。

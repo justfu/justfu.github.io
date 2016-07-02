@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "command 'gcc' failed with exit status 1"
-keywords: ["command 'gcc' failed with exit status 1"]
-description: "command 'gcc' failed with exit status 1"
+title: "crror: Setup script exited with error: command gcc"
+keywords: ["crror: Setup script exited with error: command gcc"]
+description: "crror: Setup script exited with error: command gcc"
 category: "python"
 tags: ["python", "easy_install"]
 ---
