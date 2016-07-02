@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "crror: Setup script exited with error: command gcc"
-keywords: ["crror: Setup script exited with error: command gcc"]
-description: "crror: Setup script exited with error: command gcc"
+title: "Python中的easy_install 时报错问题"
+keywords: ["Python中的easy_install 时报错问题"]
+description: "Python中的easy_install 时报错问题"
 category: "python"
 tags: ["python", "easy_install"]
 ---
