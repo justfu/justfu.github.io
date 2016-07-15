@@ -33,3 +33,5 @@ Thank you for using PHP. #出现这个标识语，表示编译成功
 ```
 
 http://www.zabbix.cc/know/1420/
+
+http://www.csdn.net/article/2012-07-05/2807142
