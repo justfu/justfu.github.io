@@ -151,3 +151,14 @@ sudo docker cp 7bb0e258aefe:/etc/debian_version .
 拷贝7bb0e258aefe中的/etc/debian_version到当前目录下。
 
 `注意：`只要7bb0e258aefe没有被删除，文件命名空间就还在，可以放心的把exit状态的container的文件拷贝出来
+
+----------------------------
+16. dockercloud国内镜像仓库
+
+Push 命令:
+
+```
+docker tag <your-image> daocloud.io/<your-user-name>/<your-image>:<tag>
+docker push daocloud.io/<your-user-name>/<your-image>:<tag>
+```
+Push 镜像前请先登录: `docker login daocloud.io`

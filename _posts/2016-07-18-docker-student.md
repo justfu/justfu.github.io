@@ -33,3 +33,6 @@ tags: ["Docker"]
 
 8. 与 Docker 和 DaoCloud 共舞
 - [http://docs.daocloud.io/faq/docker-daocloud](http://docs.daocloud.io/faq/docker-daocloud)
+
+9. 我眼中的Docker（一）docker、vm、lxc
+- [http://www.2cto.com/os/201506/409610.html](http://www.2cto.com/os/201506/409610.html)
