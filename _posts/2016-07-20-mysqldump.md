@@ -3,8 +3,8 @@ layout: post
 title: "mysqldump 只需要导出一个表的部分数据，如何写？"
 keywords: ["mysqldump 只需要导出一个表的部分数据，如何写？"]
 description: "mysqldump 只需要导出一个表的部分数据，如何写？"
-category: "mysqldump, 导出"
-tags: ["mysqldump,导出"]
+category: "mysqldump"
+tags: ["mysqldump"]
 ---
 {% include JB/setup %}
 

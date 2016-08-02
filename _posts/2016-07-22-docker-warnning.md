@@ -9,8 +9,9 @@ tags: ["docker]
 {% include JB/setup %}
 
 #### 将容器制作成新的 docker镜像
+
 ```
-docker commit -a 'Author' -m 'push is message' <containerId> <new-images-name>
+docker commit -a 'Author' -m 'push is message' < containerId > < new-images-name >
 docker push 
 ```
 
