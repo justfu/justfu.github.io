@@ -4,7 +4,7 @@ title: "php-fpm指定用户 启动端口"
 keywords: ["php-fpm指定用户 启动端口"]
 description: "php-fpm指定用户 启动端口"
 category: "php-fpm"
-tags: ["php-fpm]
+tags: ["php-fpm"]
 ---
 {% include JB/setup %}
 
