@@ -162,3 +162,14 @@ docker tag <your-image> daocloud.io/<your-user-name>/<your-image>:<tag>
 docker push daocloud.io/<your-user-name>/<your-image>:<tag>
 ```
 Push 镜像前请先登录: `docker login daocloud.io`
+
+
+
+#### 将容器制作成新的 docker镜像
+
+```
+docker commit -a 'Author' -m 'push is message' < containerId > < new-images-name >
+docker push 
+```
+
+注意： 要注意`dockefile`所编排的，不要与修改的地方产生冲突
