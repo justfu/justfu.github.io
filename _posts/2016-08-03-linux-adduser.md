@@ -8,8 +8,15 @@ tags: ["php-fpm"]
 ---
 {% include JB/setup %}
 
+
 ```
 useradd -g dengsixian -d /home/dengsixian -s /bin/bash dengsixian
+```
+
+语　　法：
+
+```
+useradd [-mMnr][-c <备注>][-d <登入目录>][-e <有效期限>][-f <缓冲天数>][-g <群组>][-G <群组>][-s <shell>][-u <uid>][用户帐号] 或 useradd -D [-b][-e <有效期限>][-f <缓冲天数>][-g <群组>][-G <群组>][-s <shell>] 
 ```
 
 添加环境变量
