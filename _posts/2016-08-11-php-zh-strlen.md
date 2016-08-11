@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "HTML5 Audio/Video 标签属性与事件"
-keywords: ["HTML5 Audio/Video 标签属性与事件"]
-description: "HTML5 Audio/Video 标签属性与事件"
-category: "Audio"
-tags: ["Audio"]
+title: "php计算中文字的长度"
+keywords: ["php计算中文字的长度"]
+description: "php计算中文字的长度"
+category: "php"
+tags: ["php"]
 ---
 {% include JB/setup %}
 
