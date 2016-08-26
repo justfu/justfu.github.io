@@ -8,6 +8,7 @@ tags: ["git", "命令"]
 ---
 {% include JB/setup %}
 
+注意：用webhoos自动发布，要创建`www`用户，且要在 `/home/www/.ssh/id_rsa.pub`生成公钥发布代码才能正常使用
 
 ```sh
 #!/bin/sh
@@ -31,20 +32,25 @@ find /data/www/product/Application/ -name common~runtime.php -ok rm -rf {} \;
 demo2
 
 ```
-#!/bin/sh
-
-WEB_PATH='/data/www/weixin/aliyun/881389/project/shidaidican'
+#!/bin/bash
+WEB_PATH='/data/www/idea_tp'
 WEB_USER='www'
-WEB_USERGROUP='www' 
-          
+WEB_USERGROUP='www'
+
 echo "Start deployment"
 cd $WEB_PATH
 echo "pulling source code..."
-git reset --hard origin/master 
-git clean -f
+git reset --hard origin/master
+#git clean -f
 git pull
-git checkout master 
+git checkout master
 echo "changing permissions..."
 chown -R $WEB_USER:$WEB_USERGROUP $WEB_PATH
-echo "Finished."
+#chmod +x ./bin/git_update_idea_tp.sh
+
+# chmod 777 $(find /data/www/idea_tp/Application/ -name common~runtime.php)
+rm -rf $(find /data/www/idea_tp/Application/ -name common~runtime.php)
+#find /data/www/idea_tp/Application/ -name common~runtime.php -ok rm -rf {} \;
+echo "Finished......"
+
 ```
