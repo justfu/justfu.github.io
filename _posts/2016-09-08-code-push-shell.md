@@ -23,17 +23,17 @@ git 代码发布脚本
 
 # 代码发布详情
 # =============================================
-# 项目名称：欢乐剧场 游戏 开发分支
-# 线上网址：http://vip.test.xinyuemin.com
+# 项目名称：***
+# 线上网址：http://***.com
 # 更新日期：2016-09-08
-# 发布者author: dengsixian
-# 代码负责人： 技术部
+# 发布者author: ***
+# 代码负责人： ***
 # 代码服务器： ssh65key
-# nginx： /etc/nginx/conf.d/dengsixian.conf
+# nginx： /etc/nginx/conf.d/***.conf
 # 代码路径 ： git@git.oschina.net
 
 cd /root/git_code/test/weikanjia
-#git reset --hard
+git reset --hard
 git checkout -- *
 git pull origin dev
 ```
@@ -41,7 +41,7 @@ git pull origin dev
 
 svn 代码发布脚本
 
-````
+```
 #!/bin/sh
 
 # 代码发布详情
@@ -52,7 +52,7 @@ svn 代码发布脚本
 # 发布者author: ***
 # 代码负责人： ****
 # 代码服务器： server158
-# nginx： /etc/nginx/conf.d/dengsixian.conf
+# nginx： /etc/nginx/conf.d/***.conf
 # 代码路径 ： git@git.oschina.net
 
 cd /root/svn_code/front_end/jichangactivity
