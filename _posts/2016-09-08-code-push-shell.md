@@ -32,7 +32,7 @@ git 代码发布脚本
 # nginx： /etc/nginx/conf.d/***.conf
 # 代码路径 ： git@git.oschina.net
 
-cd /root/git_code/test/weikanjia
+cd /root/git_code/test//***
 git reset --hard
 git checkout -- *
 git pull origin dev
