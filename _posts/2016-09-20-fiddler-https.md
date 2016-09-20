@@ -12,13 +12,13 @@ tags: ["Fiddler"]
 
 如何继续配置让Fiddler抓取到HTTPS协议呢？
 
-####（一）首先对Fiddler进行设置：打开工具栏->Tools->Fiddler Options->HTTPS
+####一）首先对Fiddler进行设置：打开工具栏->Tools->Fiddler Options->HTTPS
 
 ![](http://upload-images.jianshu.io/upload_images/1430132-dcf7a179657c91ff.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 选中Capture HTTPS CONNECTs，因为我们要用Fiddler获取手机客户端发出的HTTPS请求，所以中间的下拉菜单中选中from remote clients only。选中下方Ignore server certificate errors.
 
-###（二）然后，就是手机安装Fiddler证书。
+####二）然后，就是手机安装Fiddler证书。
 
 这一步，也就是我们上面分析的抓取HTTPS请求的关键。
 操作步骤很简单，打开手机浏览器，在浏览器地址输入代理服务器IP和端口，会看到一个Fiddler提供的页面。
