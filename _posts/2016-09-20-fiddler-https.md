@@ -28,3 +28,6 @@ tags: ["Fiddler"]
 接着点击最下方的FiddlerRoot certificate，这时候点击确定安装就可以下载Fiddler的证书了。
 下载安装完成好后，我们用手机客户端或者浏览器发出HTTPS请求，Fiddler就可以截获到了，就跟截获普通的HTTP请求一样。
 好啦，以上就是关于HTTPS的简介以及Fiddler如何获取HTTPS协议的原理和配置，看到Fiddler整齐划一地截获到HTTP和复杂的HTTPS协议，心里还有点小激动呢。
+
+
+[原文链接](http://www.jianshu.com/p/54dd21c50f21?utm_campaign=hugo&utm_medium=reader_share&utm_content=note&utm_source=weixin-friends&from=groupmessage&isappinstalled=0)
