@@ -8,13 +8,13 @@ tags: ["Fiddler"]
 ---
 {% include JB/setup %}
 
-注意以下操作的前提是，手机已经能够连上Fiddler，这部分的配置过程简单就不赘述了，可参考：[手机如何连接Fiddler](https://img.alicdn.com/imgextra/i3/1819728314/TB2aGgaXH2B11BjSsplXXcMDVXa_!!1819728314.png) 
+注意以下操作的前提是，手机已经能够连上Fiddler，这部分的配置过程简单就不赘述了，可参考：[手机如何连接Fiddler](http://www.jianshu.com/p/54dd21c50f21?utm_campaign=hugo&utm_medium=reader_share&utm_content=note&utm_source=weixin-friends&from=groupmessage&isappinstalled=0) 
 
 如何继续配置让Fiddler抓取到HTTPS协议呢？
 
 一）首先对Fiddler进行设置：打开工具栏->Tools->Fiddler Options->HTTPS
 
-![](http://upload-images.jianshu.io/upload_images/1430132-dcf7a179657c91ff.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://img.alicdn.com/imgextra/i3/1819728314/TB2aGgaXH2B11BjSsplXXcMDVXa_!!1819728314.png)
 
 选中Capture HTTPS CONNECTs，因为我们要用Fiddler获取手机客户端发出的HTTPS请求，所以中间的下拉菜单中选中from remote clients only。选中下方Ignore server certificate errors.
 
