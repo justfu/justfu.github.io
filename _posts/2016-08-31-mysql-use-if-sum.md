@@ -14,7 +14,7 @@ tags: ["mysql"]
 
 查询语句
 
-```
+````
 select 
 	te as 老师号,
 	sum(if(weed=1,1,0)) as '星期一',
@@ -44,4 +44,4 @@ COLLATE='utf8_german2_ci'
 ENGINE=InnoDB
 AUTO_INCREMENT=2
 ;
-```
+````

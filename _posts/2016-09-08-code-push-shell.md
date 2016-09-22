@@ -41,7 +41,7 @@ git pull origin dev
 
 svn 代码发布脚本
 
-```
+````
 #!/bin/sh
 
 # 代码发布详情
@@ -60,4 +60,4 @@ svn up
 . /root/.bash_alias
 #/usr/bin/rsync  -artuzv -R --progress --delete  '/root/svn_code/front_end/jichangactivity'  lane@rsync_server158:/data_sixian/www_svn/front_end/ --exclude '.svn'
 /usr/bin/rsync  -arvu --progress --delete  '/root/svn_code/front_end/jichangactivity'  lane@rsync_server158:/data_sixian/www_svn/front_end/ --exclude '.svn'
-```
+````

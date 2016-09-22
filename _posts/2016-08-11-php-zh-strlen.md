@@ -14,7 +14,7 @@ tags: ["php"]
 特此记录一下 ^_^
 
 
-```
+````
 /**
  * 	统计 中文字数，已去除 html 代码
  * @param  {[type]} $string [description]
@@ -34,4 +34,4 @@ function cutstr_html($string)
     $str =  trim($string);  
     return mb_strlen($str);
 }
-```
+````

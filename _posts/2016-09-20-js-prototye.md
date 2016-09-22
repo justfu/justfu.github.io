@@ -10,7 +10,7 @@ tags: ["js"]
 
 给js写成类的形式
 
-```
+````
 <script type="text/javascript">
 	var saveTel = function(){
 		this.num = 0;
@@ -55,4 +55,4 @@ tags: ["js"]
 		}
 	});
 </script>
-```
+````
