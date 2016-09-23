@@ -24,7 +24,7 @@ Win版本下载0.9版本：[http://pan.baidu.com/s/1kUQUN8z](http://pan.baidu.co
 
 开发工具破解替换的js：[http://pan.baidu.com/s/1miqBm6c](http://pan.baidu.com/s/1miqBm6c)
 
-原版0.7版：
+原0.7版开发工具：
 
 1. MAC:[https://pan.baidu.com/s/1csX346](https://pan.baidu.com/s/1csX346)
 
