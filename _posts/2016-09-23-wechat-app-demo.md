@@ -82,5 +82,5 @@ Win版本下载0.9版本：[http://pan.baidu.com/s/1kUQUN8z](http://pan.baidu.co
 
 
 交流群
-![](http://youce-10003840.file.myqcloud.com/512521-57e4a2658f445.jpg)
+![](http://youce-10003840.file.myqcloud.com/118181-57e4a706e0440.jpg)
 
