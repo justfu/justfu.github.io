@@ -8,6 +8,9 @@ tags: ["wechatApp"]
 ---
 {% include JB/setup %}
 
+#### 遇到的坑
+[你遇到的问题可能这里有Issues](https://github.com/sixian67/sixian67.github.com/issues)
+
 
 开发文档
 
@@ -22,6 +25,17 @@ Mac版本下载0.9版本：[http://pan.baidu.com/s/1kUQUN8z](http://pan.baidu.co
 开发工具破解替换的js：[http://pan.baidu.com/s/1miqBm6c](http://pan.baidu.com/s/1miqBm6c)
 
 原版0.7版：[微信开发者工具](https://mp.weixin.qq.com/wiki/10/e5f772f4521da17fa0d7304f68b97d7e.html#.E4.B8.8B.E8.BD.BD.E5.9C.B0.E5.9D.80)
+
+#### win 下
+1. 安装 0.7版 与 最新的版本(注意是两个版本的哦)
+![](https://img.alicdn.com/imgextra/i2/1819728314/TB2k7AGXYnA11Bjy0FjXXapoFXa_!!1819728314.png)
+
+2. 在你安装的目录找到`createstep.js`替换成`开发工具破解两个js`的`createstep.js`
+![](https://img.alicdn.com/imgextra/i3/1819728314/TB2jsZKX8_B11BjSspcXXb0sVXa_!!1819728314.png)
+
+3. 在你安装的目录找到`projectStores.js`替换成`开发工具破解两个js`的projectStores.js`
+![](https://img.alicdn.com/imgextra/i3/1819728314/TB2qsoKX5rz11Bjy1XaXXbRrFXa_!!1819728314.png)
+![](https://img.alicdn.com/imgextra/i3/1819728314/TB2qsoKX5rz11Bjy1XaXXbRrFXa_!!1819728314.png)
 
 #### Mac 下
 
@@ -40,18 +54,6 @@ Mac版本下载0.9版本：[http://pan.baidu.com/s/1kUQUN8z](http://pan.baidu.co
 6. 再次运行『微信Web开发者工具』
 7. 打开刚刚创建的项目
 8. Good luck
-
-#### win 下
-1. 安装 0.7版 与 最新的版本(注意是两个版本的哦)
-![](https://img.alicdn.com/imgextra/i2/1819728314/TB2k7AGXYnA11Bjy0FjXXapoFXa_!!1819728314.png)
-
-2. 在你安装的目录找到`createstep.js`替换成`开发工具破解两个js`的`createstep.js`
-![](https://img.alicdn.com/imgextra/i3/1819728314/TB2jsZKX8_B11BjSspcXXb0sVXa_!!1819728314.png)
-
-3. 在你安装的目录找到`projectStores.js`替换成`开发工具破解两个js`的projectStores.js`
-![](https://img.alicdn.com/imgextra/i3/1819728314/TB2qsoKX5rz11Bjy1XaXXbRrFXa_!!1819728314.png)
-![](https://img.alicdn.com/imgextra/i3/1819728314/TB2qsoKX5rz11Bjy1XaXXbRrFXa_!!1819728314.png)
-
 
 #### 使用教程：
 1. 替换两个文件即可
@@ -73,4 +75,3 @@ Mac版本下载0.9版本：[http://pan.baidu.com/s/1kUQUN8z](http://pan.baidu.co
 交流群
 ![](http://youce-10003840.file.myqcloud.com/512521-57e4a2658f445.jpg)
 
-[或在这里提出问题Issues](https://github.com/sixian67/sixian67.github.com/issues)
