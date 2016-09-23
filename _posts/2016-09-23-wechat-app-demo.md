@@ -21,7 +21,7 @@ Mac版本下载0.9版本：[http://pan.baidu.com/s/1kUQUN8z](http://pan.baidu.co
 
 开发工具破解替换的js：[http://pan.baidu.com/s/1miqBm6c](http://pan.baidu.com/s/1miqBm6c)
 
-原版0.7版【微信开发者工具】：[https://mp.weixin.qq.com/wiki/10/e5f772f4521da17fa0d7304f68b97d7e.html#.E4.B8.8B.E8.BD.BD.E5.9C.B0.E5.9D.80](https://mp.weixin.qq.com/wiki/10/e5f772f4521da17fa0d7304f68b97d7e.html#.E4.B8.8B.E8.BD.BD.E5.9C.B0.E5.9D.80)
+原版0.7版：[微信开发者工具](https://mp.weixin.qq.com/wiki/10/e5f772f4521da17fa0d7304f68b97d7e.html#.E4.B8.8B.E8.BD.BD.E5.9C.B0.E5.9D.80)
 
 #### Mac 下
 
@@ -45,10 +45,10 @@ Mac版本下载0.9版本：[http://pan.baidu.com/s/1kUQUN8z](http://pan.baidu.co
 1. 安装 0.7版 与 最新的版本(注意是两个版本的哦)
 ![](https://img.alicdn.com/imgextra/i2/1819728314/TB2k7AGXYnA11Bjy0FjXXapoFXa_!!1819728314.png)
 
-2. 在你安装的目录打到`createstep.js`替换成`开发工具破解替换的createstep.js`
+2. 在你安装的目录找到`createstep.js`替换成`开发工具破解两个js`的`createstep.js`
 ![](https://img.alicdn.com/imgextra/i3/1819728314/TB2jsZKX8_B11BjSspcXXb0sVXa_!!1819728314.png)
 
-3. 在你安装的目录打到`projectStores.js`替换成`开发工具破解替换的projectStores.js`
+3. 在你安装的目录找到`projectStores.js`替换成`开发工具破解两个js`的projectStores.js`
 ![](https://img.alicdn.com/imgextra/i3/1819728314/TB2qsoKX5rz11Bjy1XaXXbRrFXa_!!1819728314.png)
 ![](https://img.alicdn.com/imgextra/i3/1819728314/TB2qsoKX5rz11Bjy1XaXXbRrFXa_!!1819728314.png)
 
