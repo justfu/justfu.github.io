@@ -18,9 +18,9 @@ tags: ["wechatApp"]
 
 需要工具下载：
 
-Win版本下载0.9版本：[http://pan.baidu.com/s/1bPlrx8](http://pan.baidu.com/s/1bPlrx8)
+Mac版本下载0.9版本：[http://pan.baidu.com/s/1bPlrx8](http://pan.baidu.com/s/1bPlrx8)
 
-Mac版本下载0.9版本：[http://pan.baidu.com/s/1kUQUN8z](http://pan.baidu.com/s/1kUQUN8z)
+Win版本下载0.9版本：[http://pan.baidu.com/s/1kUQUN8z](http://pan.baidu.com/s/1kUQUN8z)
 
 开发工具破解替换的js：[http://pan.baidu.com/s/1miqBm6c](http://pan.baidu.com/s/1miqBm6c)
 
