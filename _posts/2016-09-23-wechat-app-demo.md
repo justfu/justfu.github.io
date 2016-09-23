@@ -27,6 +27,7 @@ Win版本下载0.9版本：[http://pan.baidu.com/s/1kUQUN8z](http://pan.baidu.co
 原版0.7版：
 MAC:[https://pan.baidu.com/s/1csX346](https://pan.baidu.com/s/1csX346)
 WIN:[https://pan.baidu.com/s/1eRRKXxC](https://pan.baidu.com/s/1eRRKXxC)
+
 [或使用官方的](https://mp.weixin.qq.com/wiki/10/e5f772f4521da17fa0d7304f68b97d7e.html#.E4.B8.8B.E8.BD.BD.E5.9C.B0.E5.9D.80)
 
 #### win 下
