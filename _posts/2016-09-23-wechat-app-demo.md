@@ -25,11 +25,12 @@ Win版本下载0.9版本：[http://pan.baidu.com/s/1kUQUN8z](http://pan.baidu.co
 开发工具破解替换的js：[http://pan.baidu.com/s/1miqBm6c](http://pan.baidu.com/s/1miqBm6c)
 
 原版0.7版：
-MAC:[https://pan.baidu.com/s/1csX346](https://pan.baidu.com/s/1csX346)
 
-WIN:[https://pan.baidu.com/s/1eRRKXxC](https://pan.baidu.com/s/1eRRKXxC)
+1. MAC:[https://pan.baidu.com/s/1csX346](https://pan.baidu.com/s/1csX346)
 
-[或使用官方的](https://mp.weixin.qq.com/wiki/10/e5f772f4521da17fa0d7304f68b97d7e.html#.E4.B8.8B.E8.BD.BD.E5.9C.B0.E5.9D.80)
+2. WIN:[https://pan.baidu.com/s/1eRRKXxC](https://pan.baidu.com/s/1eRRKXxC)
+
+3. [或使用官方的](https://mp.weixin.qq.com/wiki/10/e5f772f4521da17fa0d7304f68b97d7e.html#.E4.B8.8B.E8.BD.BD.E5.9C.B0.E5.9D.80)
 
 #### win 下
 1. 安装 0.7版 与 最新的版本(注意是两个版本的哦)
